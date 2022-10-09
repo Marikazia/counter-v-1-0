@@ -1,6 +1,6 @@
 
 import React from 'react'; 
-import './index.css';
+import './index.scss';
 
 function App() {
 	const [count, setCount] = React.useState(0);
@@ -18,12 +18,12 @@ function App() {
 
   return (
 		<>
-			<div className='App'>
+			<div className="app">
 				<div>
 					<h2>Counter:</h2>
 					<h1>{count}</h1>
-					<button onClick={onClickMinus} className='minus'>- Minus</button>
-					<button onClick={onClickPlus} className='plus'>Plus +</button>
+					<button onClick={onClickMinus} className="minus">- Minus</button>
+					<button onClick={onClickPlus} className="plus">Plus +</button>
 				</div>
 			</div>
 		</>
