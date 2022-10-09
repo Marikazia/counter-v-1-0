@@ -1,5 +1,5 @@
 
-import './App.css';
+import './index.scss';
 import React from 'react'; 
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
 		<>
 			<div className='App'>
 				<div>
-					<h2>Counter</h2>
+					<h2>Counter:</h2>
 					<h1>{count}</h1>
 					<button onClick={onClickMinus} className='Minus'>- Minus</button>
 					<button onClick={onClickPlus} className='Plus'>+ Plus</button>
@@ -28,7 +28,6 @@ function App() {
 			</div>
 		</>
   );
-
 }
 
 export default App;
