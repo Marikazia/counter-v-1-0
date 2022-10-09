@@ -1,6 +1,6 @@
 
 import React from 'react'; 
-import './index.scss';
+import './index.css';
 
 function App() {
 	const [count, setCount] = React.useState(0);
