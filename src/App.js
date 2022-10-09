@@ -1,14 +1,19 @@
 
 import './App.css';
-
+import React from 'react'; 
 
 function App() {
-
-	let count = 0;
+	const [count, setCount] = React.useState(0);
+	// let count = 0;
 
 	const onClickPlus = () => {
-		count++;
-		console.log(count);
+		setCount(count + 1);
+		// count++;
+		// console.log(count);
+	}
+
+	const onClickMinus = () => {
+		setCount(count - 1);
 	}
 
   return (
@@ -17,7 +22,7 @@ function App() {
 				<div>
 					<h2>Counter</h2>
 					<h1>{count}</h1>
-					<button className='Minus'>- Minus</button>
+					<button onClick={onClickMinus} className='Minus'>- Minus</button>
 					<button onClick={onClickPlus} className='Plus'>+ Plus</button>
 				</div>
 			</div>
