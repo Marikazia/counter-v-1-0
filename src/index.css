@@ -1,12 +1,12 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #edf6f9;
 }
 
-.App {
+.app {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,28 +14,28 @@ body {
   text-align: center;
 }
 
-.App h1 {
+.app h1 {
   color: #000;
   font-size: 7rem;
   margin: 0;
   margin-bottom: 20px;
 }
 
-.App h1.plus {
+.app h1.plus {
   color: #2a9d8f;
 }
 
-.App h1.minus {
+.app h1.minus {
   color: #e63946;
 }
 
-.App h2 {
+.app h2 {
   font-size: 2rem;
   margin: 0;
   color: #556581;
 }
 
-.App button {
+.app button {
   background: transparent;
   border: 2px solid transparent;
   text-align: center;
@@ -47,25 +47,25 @@ body {
   transition: all 0.05s ease-in-out;
 }
 
-.App button.minus {
+.app button.minus {
   background-color: #e63946;
   color: #fff;
   box-shadow: 0 4px 0 #d21a28;
   border: 1px solid #bb1824;
 }
 
-.App button.plus {
+.app button.plus {
   background-color: #2a9d8f;
   color: #fff;
   box-shadow: 0 4px 0 #1f756a;
   border: 1px solid #1a6158;
 }
 
-.App button:hover {
+.app button:hover {
   transform: translateY(-2px);
 }
 
-.App button:active {
+.app button:active {
   transform: translateY(2px);
   box-shadow: none;
 }
